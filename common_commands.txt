@@ -1,0 +1,39 @@
+# STARTUP
+# python -m venv django_1_venv
+# \django_1_venv\Scripts\activate
+# deactivate
+# pip freeze > requirements.txt
+# pip install -r requirements.txt
+
+# django-admin startproject <name>
+# python manage.py runserver
+
+# python manage.py startapp NAME_OF_APP
+
+# SHELL COMMANDS
+# python manage.py shell
+# <CLASS>.objects.all() OR create.(value=<argument>)
+
+
+
+# MIGRATIONS
+# python manage.py makemigrations
+# python manage.py migrate
+
+# python manage.py createsuperuser
+
+# admin login details
+# admin admin@admin.com admin
+# 
+
+# test user details
+test_user wowwowwow
+# 
+
+# test user details
+# 
+
+
+# bugs in the current system
+# 1 - The application does not find the sales/static folder and therefore all templates are currently in the main static folder
+# 2 - The application could not use profile to attach an author to reports when generated
